@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 155" width="64" height="155">
+  <!-- Tail — darkened red -->
+  <path d="M 25 110 C 20 125 24 140 32 150 C 40 140 44 125 39 110 Z" fill="#770800"/>
+  <!-- Body/belly — slightly darker red -->
+  <ellipse cx="32" cy="90" rx="13" ry="21" fill="#991100"/>
+  <!-- Neck -->
+  <rect x="23" y="50" width="18" height="14" rx="6" fill="#cc1100"/>
+  <!-- Hood -->
+  <ellipse cx="32" cy="20" rx="26" ry="13" fill="#cc1100"/>
+  <ellipse cx="32" cy="20" rx="20" ry="9" fill="#ee2200"/>
+  <ellipse cx="32" cy="20" rx="10" ry="6" fill="#880a00" opacity="0.5"/>
+  <!-- Drop shadow behind head -->
+  <ellipse cx="33" cy="40" rx="16" ry="17" fill="#440000" opacity="0.35"/>
+  <!-- Head -->
+  <ellipse cx="32" cy="38" rx="16" ry="17" fill="#cc1100"/>
+  <!-- Specular highlight -->
+  <ellipse cx="26" cy="32" rx="7" ry="5" fill="#ee3311" opacity="0.45"/>
+  <!-- Eyes — glowing orange for evil look -->
+  <circle cx="24" cy="34" r="5" fill="#ff8800"/>
+  <circle cx="40" cy="34" r="5" fill="#ff8800"/>
+  <circle cx="24" cy="34" r="2.5" fill="#111"/>
+  <circle cx="40" cy="34" r="2.5" fill="#111"/>
+  <!-- Fangs -->
+  <polygon points="26,52 22,62 28,55" fill="white"/>
+  <polygon points="38,52 42,62 36,55" fill="white"/>
+  <!-- Mouth -->
+  <path d="M 22 51 Q 32 57 42 51" stroke="#880000" stroke-width="2" fill="none"/>
+  <!-- Tongue — orange-red -->
+  <path d="M 30 57 L 28 63 M 34 57 L 36 63" stroke="#ff4400" stroke-width="2" fill="none"/>
+</svg>

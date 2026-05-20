@@ -350,6 +350,7 @@ export default class GameScene extends Phaser.Scene {
   }
 
   _loseLife() {
+    if (window.__cheatFlags?.infiniteLives) return;
     if (this.player.upgradeState.shield) {
       this.player.upgradeState.shield = false;
       this.events.emit('upgrade-expired', 'shield');
@@ -417,6 +418,41 @@ export default class GameScene extends Phaser.Scene {
     if (this.lives <= 0) return;
 
     this.player.update();
+
+    // Auto-play AI: dodge bullets, then track nearest cobra
+    if (window.__cheatFlags?.autoPlay) {
+      // Scan incoming enemy bullets within danger zone
+      let dodgeDir = 0;
+      this.enemyBullets.getChildren().forEach(bolt => {
+        if (!bolt.active) return;
+        const dy = this.player.y - bolt.y; // positive = bolt above player
+        if (dy > 0 && dy < 200) {
+          const dx = bolt.x - this.player.x;
+          if (Math.abs(dx) < 55) dodgeDir += dx < 0 ? 1 : -1;
+        }
+      });
+
+      let vx;
+      if (dodgeDir !== 0) {
+        // Bullet incoming — dodge takes priority over tracking
+        vx = dodgeDir > 0 ? this.player.speed : -this.player.speed;
+      } else {
+        // No danger — slide toward nearest cobra
+        let nearest = null, minDist = Infinity;
+        this.cobras.getChildren().forEach(c => {
+          if (!c.active) return;
+          const d = Math.abs(c.x - this.player.x);
+          if (d < minDist) { minDist = d; nearest = c; }
+        });
+        const dx = nearest ? nearest.x - this.player.x : 0;
+        vx = Math.abs(dx) > 12 ? (dx > 0 ? this.player.speed : -this.player.speed) : 0;
+      }
+
+      this.player.sprite.setVelocityX(vx);
+      this.player.sprite.setVelocityY(0);
+      this.player.fire(this.projectiles);
+    }
+
     this.projectiles.update();
 
     // Shield graphic follows player

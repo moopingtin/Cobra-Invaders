@@ -1,7 +1,8 @@
-import Phaser from 'phaser';
 import MenuScene from './scenes/MenuScene.js';
 import GameScene from './scenes/GameScene.js';
 import GameOverScene from './scenes/GameOverScene.js';
+import CobraPlayScene from './scenes/CobraPlayScene.js';
+import { initCheat } from './cheat.js';
 
 const config = {
   type: Phaser.AUTO,
@@ -12,10 +13,11 @@ const config = {
     default: 'arcade',
     arcade: { gravity: { y: 0 }, debug: false }
   },
-  scene: [MenuScene, GameScene, GameOverScene]
+  scene: [MenuScene, GameScene, GameOverScene, CobraPlayScene]
 };
 
 const game = new Phaser.Game(config);
+initCheat(game);
 
 // Phaser's InputPlugin sets enabled=false when 'blur' fires.
 // Counter it immediately in the same tick so input is never actually lost.

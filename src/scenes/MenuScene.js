@@ -2,22 +2,23 @@ export default class MenuScene extends Phaser.Scene {
   constructor() { super('MenuScene'); }
 
   preload() {
-    this.load.svg('penguin-ship', '/assets/sprites/penguin-ship.svg', { width: 64, height: 80 });
-    this.load.svg('cobra', '/assets/sprites/cobra.svg', { width: 64, height: 155 });
-    this.load.svg('cobra-fast', '/assets/sprites/cobra-fast.svg', { width: 56, height: 145 });
-    this.load.svg('cobra-tank', '/assets/sprites/cobra-tank.svg', { width: 92, height: 160 });
-    this.load.svg('cobra-bolt', '/assets/sprites/cobra-bolt.svg', { width: 8, height: 22 });
-    this.load.svg('laser-bolt', '/assets/sprites/laser-bolt.svg', { width: 8, height: 28 });
-    this.load.svg('fireball', '/assets/sprites/fireball.svg', { width: 28, height: 28 });
-    this.load.svg('freeze-ray', '/assets/sprites/freeze-ray.svg', { width: 10, height: 30 });
-    this.load.svg('lightning-bolt', '/assets/sprites/lightning-bolt.svg', { width: 10, height: 28 });
-    this.load.svg('drop-fireball', '/assets/sprites/drop-fireball.svg', { width: 40, height: 40 });
-    this.load.svg('drop-double-shot', '/assets/sprites/drop-double-shot.svg', { width: 40, height: 40 });
-    this.load.svg('drop-triple-shot', '/assets/sprites/drop-triple-shot.svg', { width: 40, height: 40 });
-    this.load.svg('drop-speed', '/assets/sprites/drop-speed.svg', { width: 40, height: 40 });
-    this.load.svg('drop-baby-penguin', '/assets/sprites/drop-baby-penguin.svg', { width: 40, height: 40 });
-    this.load.svg('cobra-boss', '/assets/sprites/cobra-boss.svg', { width: 140, height: 200 });
-    this.load.svg('drop-shield', '/assets/sprites/drop-shield.svg', { width: 40, height: 40 });
+    this.load.svg('penguin-ship', './public/assets/sprites/penguin-ship.svg', { width: 64, height: 80 });
+    this.load.svg('cobra', './public/assets/sprites/cobra.svg', { width: 64, height: 155 });
+    this.load.svg('cobra-fast', './public/assets/sprites/cobra-fast.svg', { width: 56, height: 145 });
+    this.load.svg('cobra-tank', './public/assets/sprites/cobra-tank.svg', { width: 92, height: 160 });
+    this.load.svg('cobra-bolt', './public/assets/sprites/cobra-bolt.svg', { width: 8, height: 22 });
+    this.load.svg('laser-bolt', './public/assets/sprites/laser-bolt.svg', { width: 8, height: 28 });
+    this.load.svg('fireball', './public/assets/sprites/fireball.svg', { width: 28, height: 28 });
+    this.load.svg('freeze-ray', './public/assets/sprites/freeze-ray.svg', { width: 10, height: 30 });
+    this.load.svg('lightning-bolt', './public/assets/sprites/lightning-bolt.svg', { width: 10, height: 28 });
+    this.load.svg('drop-fireball', './public/assets/sprites/drop-fireball.svg', { width: 40, height: 40 });
+    this.load.svg('drop-double-shot', './public/assets/sprites/drop-double-shot.svg', { width: 40, height: 40 });
+    this.load.svg('drop-triple-shot', './public/assets/sprites/drop-triple-shot.svg', { width: 40, height: 40 });
+    this.load.svg('drop-speed', './public/assets/sprites/drop-speed.svg', { width: 40, height: 40 });
+    this.load.svg('drop-baby-penguin', './public/assets/sprites/drop-baby-penguin.svg', { width: 40, height: 40 });
+    this.load.svg('cobra-boss', './public/assets/sprites/cobra-boss.svg', { width: 140, height: 200 });
+    this.load.svg('drop-shield', './public/assets/sprites/drop-shield.svg', { width: 40, height: 40 });
+    this.load.svg('evil-cobra',  './public/assets/sprites/evil-cobra.svg',  { width: 64, height: 155 });
   }
 
   create() {
