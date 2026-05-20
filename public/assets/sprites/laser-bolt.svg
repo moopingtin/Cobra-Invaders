@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 28" width="8" height="28">
+  <!-- Outer glow -->
+  <rect x="1" y="0" width="6" height="28" rx="3" fill="#0088ff" opacity="0.5"/>
+  <!-- Main bolt -->
+  <rect x="2" y="0" width="4" height="28" rx="2" fill="#00ccff"/>
+  <!-- Bright core -->
+  <rect x="3" y="0" width="2" height="28" rx="1" fill="white"/>
+</svg>

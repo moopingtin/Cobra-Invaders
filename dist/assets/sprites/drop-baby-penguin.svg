@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <!-- Cyan aura ring -->
+  <circle cx="20" cy="20" r="19" fill="#001a22" stroke="#00eeff" stroke-width="2"/>
+  <circle cx="20" cy="20" r="16" fill="none" stroke="#44ddff" stroke-width="1.5" opacity="0.5"/>
+  <!-- Penguin body -->
+  <ellipse cx="20" cy="24" rx="9" ry="11" fill="#111"/>
+  <!-- Belly -->
+  <ellipse cx="20" cy="26" rx="5" ry="7" fill="#eee"/>
+  <!-- Head -->
+  <circle cx="20" cy="13" r="7" fill="#111"/>
+  <!-- Eyes -->
+  <circle cx="17" cy="12" r="2" fill="white"/>
+  <circle cx="23" cy="12" r="2" fill="white"/>
+  <circle cx="17.5" cy="12" r="1" fill="#111"/>
+  <circle cx="23.5" cy="12" r="1" fill="#111"/>
+  <!-- Beak -->
+  <polygon points="20,15 18,18 22,18" fill="#ff8800"/>
+  <!-- Cyan sparkles -->
+  <circle cx="8" cy="10" r="1.5" fill="#00eeff" opacity="0.8"/>
+  <circle cx="32" cy="10" r="1.5" fill="#00eeff" opacity="0.8"/>
+  <circle cx="6" cy="24" r="1" fill="#00eeff" opacity="0.6"/>
+  <circle cx="34" cy="24" r="1" fill="#00eeff" opacity="0.6"/>
+</svg>

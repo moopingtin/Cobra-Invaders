@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <!-- Shield outline -->
+  <path d="M 20 4 L 35 10 L 35 23 Q 35 33 20 38 Q 5 33 5 23 L 5 10 Z" fill="#0044bb" stroke="#44aaff" stroke-width="2"/>
+  <!-- Inner fill -->
+  <path d="M 20 8 L 31 13 L 31 23 Q 31 30 20 34 Q 9 30 9 23 L 9 13 Z" fill="#0066dd" opacity="0.7"/>
+  <!-- Star -->
+  <polygon points="20,13 21.8,18.5 27.5,18.5 23,21.7 24.8,27.2 20,24 15.2,27.2 17,21.7 12.5,18.5 18.2,18.5" fill="#aaddff"/>
+</svg>

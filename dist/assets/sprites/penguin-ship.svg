@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" width="64" height="80">
+  <!-- Rocket exhaust flame -->
+  <ellipse cx="32" cy="76" rx="8" ry="6" fill="#ff6600" opacity="0.9"/>
+  <ellipse cx="32" cy="74" rx="5" ry="4" fill="#ffcc00"/>
+  <!-- Body (black penguin oval) -->
+  <ellipse cx="32" cy="38" rx="20" ry="28" fill="#111111"/>
+  <!-- White belly -->
+  <ellipse cx="32" cy="40" rx="11" ry="18" fill="#f0f0f0"/>
+  <!-- Eyes -->
+  <circle cx="25" cy="28" r="4" fill="white"/>
+  <circle cx="39" cy="28" r="4" fill="white"/>
+  <circle cx="26" cy="28" r="2" fill="#111"/>
+  <circle cx="40" cy="28" r="2" fill="#111"/>
+  <!-- Orange beak -->
+  <polygon points="32,34 28,39 36,39" fill="#ff8800"/>
+  <!-- Rocket fins -->
+  <polygon points="12,52 4,64 18,60" fill="#333"/>
+  <polygon points="52,52 60,64 46,60" fill="#333"/>
+  <!-- Blue flame inner -->
+  <ellipse cx="32" cy="73" rx="3" ry="3" fill="#88ddff"/>
+</svg>

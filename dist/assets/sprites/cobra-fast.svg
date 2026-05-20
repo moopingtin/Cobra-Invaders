@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 108" width="56" height="108">
+  <!-- Body drawn FIRST -->
+  <ellipse cx="28" cy="80" rx="10" ry="18" fill="#88ccff"/>
+  <ellipse cx="28" cy="82" rx="5" ry="12" fill="#bbddff"/>
+  <ellipse cx="28" cy="80" rx="7" ry="13" fill="none" stroke="#66aacc" stroke-width="1" opacity="0.4"/>
+  <!-- Neck -->
+  <rect x="21" y="43" width="14" height="11" rx="5" fill="#88ccff"/>
+  <!-- Hood -->
+  <ellipse cx="28" cy="17" rx="22" ry="10" fill="#88ccff"/>
+  <ellipse cx="28" cy="17" rx="16" ry="7" fill="#aaddff"/>
+  <ellipse cx="28" cy="17" rx="8" ry="4" fill="#66aaee" opacity="0.5"/>
+  <!-- Head drawn LAST -->
+  <ellipse cx="28" cy="33" rx="13" ry="14" fill="#88ccff"/>
+  <circle cx="21" cy="30" r="4" fill="#ffee00"/>
+  <circle cx="35" cy="30" r="4" fill="#ffee00"/>
+  <circle cx="21" cy="30" r="2" fill="#111"/>
+  <circle cx="35" cy="30" r="2" fill="#111"/>
+  <polygon points="23,45 20,54 25,48" fill="white"/>
+  <polygon points="33,45 36,54 31,48" fill="white"/>
+  <path d="M 19 44 Q 28 50 37 44" stroke="#66aacc" stroke-width="2" fill="none"/>
+  <path d="M 26 50 L 24 55 M 30 50 L 32 55" stroke="#ff3333" stroke-width="2" fill="none"/>
+</svg>

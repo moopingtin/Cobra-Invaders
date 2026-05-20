@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 200" width="140" height="200">
+  <!-- Tail — darkened (furthest from player) -->
+  <path d="M 60 5 C 54 22 58 38 70 46 C 82 38 86 22 80 5 Z" fill="#020810"/>
+
+  <!-- Body — slightly darkened -->
+  <ellipse cx="70" cy="100" rx="32" ry="55" fill="#060f1e"/>
+
+  <!-- Thick neck -->
+  <rect x="46" y="140" width="48" height="22" rx="11" fill="#081828"/>
+
+  <!-- Hood -->
+  <ellipse cx="70" cy="163" rx="65" ry="23" fill="#060e1a"/>
+  <ellipse cx="70" cy="163" rx="52" ry="17" fill="#0a1830"/>
+  <ellipse cx="70" cy="163" rx="28" ry="10" fill="#040c16" opacity="0.65"/>
+
+  <!-- Drop shadow behind head -->
+  <ellipse cx="71" cy="164" rx="36" ry="27" fill="#020810" opacity="0.4"/>
+  <!-- Head -->
+  <ellipse cx="70" cy="162" rx="36" ry="27" fill="#081828"/>
+  <!-- Specular highlight -->
+  <ellipse cx="58" cy="153" rx="14" ry="10" fill="#0c2040" opacity="0.5"/>
+
+  <!-- Eyes — glowing red (boss) -->
+  <circle cx="47" cy="156" r="12" fill="#6b0000"/>
+  <circle cx="93" cy="156" r="12" fill="#6b0000"/>
+  <circle cx="47" cy="156" r="8"  fill="#cc0000"/>
+  <circle cx="93" cy="156" r="8"  fill="#cc0000"/>
+  <circle cx="47" cy="156" r="4"  fill="#111"/>
+  <circle cx="93" cy="156" r="4"  fill="#111"/>
+  <circle cx="44" cy="153" r="2.5" fill="#ff6666" opacity="0.9"/>
+  <circle cx="90" cy="153" r="2.5" fill="#ff6666" opacity="0.9"/>
+
+  <!-- Mouth -->
+  <path d="M 42 174 Q 70 186 98 174" stroke="#040c16" stroke-width="4" fill="none"/>
+
+  <!-- Fangs -->
+  <polygon points="58,175 51,192 63,185" fill="white"/>
+  <polygon points="82,175 89,192 77,185" fill="white"/>
+
+  <!-- Tongue -->
+  <path d="M 66 182 L 62 196 M 74 182 L 78 196" stroke="#ff1111" stroke-width="4" fill="none"/>
+
+  <!-- Hood accent lines -->
+  <line x1="8"   y1="155" x2="22"  y2="164" stroke="#040c16" stroke-width="2" opacity="0.55"/>
+  <line x1="132" y1="155" x2="118" y2="164" stroke="#040c16" stroke-width="2" opacity="0.55"/>
+</svg>

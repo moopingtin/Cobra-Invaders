@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 160" width="92" height="160">
+  <!-- Tail — darkened to look further from viewer -->
+  <path d="M 33 122 C 27 135 31 148 46 155 C 61 148 65 135 59 122 Z" fill="#0d1e3a"/>
+  <!-- Body/belly — slightly darkened -->
+  <ellipse cx="46" cy="103" rx="22" ry="22" fill="#122850"/>
+  <!-- Wide neck to body -->
+  <rect x="26" y="62" width="40" height="16" rx="8" fill="#1a3a6e"/>
+  <!-- Thick neck under head -->
+  <rect x="28" y="28" width="36" height="14" rx="6" fill="#1a3a6e"/>
+  <!-- Hood -->
+  <ellipse cx="46" cy="20" rx="44" ry="17" fill="#1a3a6e"/>
+  <ellipse cx="46" cy="20" rx="35" ry="12" fill="#1e4480"/>
+  <ellipse cx="46" cy="20" rx="18" ry="7" fill="#162e58" opacity="0.6"/>
+  <!-- Drop shadow behind head -->
+  <ellipse cx="47" cy="50" rx="24" ry="21" fill="#070f1e" opacity="0.35"/>
+  <!-- Head -->
+  <ellipse cx="46" cy="48" rx="24" ry="21" fill="#1a3a6e"/>
+  <!-- Specular highlight -->
+  <ellipse cx="38" cy="41" rx="10" ry="7" fill="#1e4480" opacity="0.5"/>
+  <circle cx="34" cy="43" r="7" fill="#ffee00"/>
+  <circle cx="58" cy="43" r="7" fill="#ffee00"/>
+  <circle cx="34" cy="43" r="3.5" fill="#111"/>
+  <circle cx="58" cy="43" r="3.5" fill="#111"/>
+  <polygon points="36,66 31,78 41,70" fill="white"/>
+  <polygon points="56,66 61,78 51,70" fill="white"/>
+  <path d="M 28 65 Q 46 73 64 65" stroke="#112244" stroke-width="3" fill="none"/>
+  <path d="M 43 72 L 40 79 M 49 72 L 52 79" stroke="#ff3333" stroke-width="3" fill="none"/>
+  <line x1="14" y1="16" x2="24" y2="28" stroke="#112244" stroke-width="2" opacity="0.5"/>
+  <line x1="68" y1="16" x2="78" y2="28" stroke="#112244" stroke-width="2" opacity="0.5"/>
+</svg>
